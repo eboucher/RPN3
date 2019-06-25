@@ -1,4 +1,10 @@
-package rpn.rpn3;
+package rpn.consumer;
+
+import rpn.bus.Bus;
+import rpn.message.EndOfToken;
+import rpn.message.ExpressionMessage;
+import rpn.message.Message;
+import rpn.message.TokenMessage;
 
 import java.util.stream.Stream;
 

@@ -1,4 +1,4 @@
-package rpn.rpn3;
+package rpn.message;
 
 public class TokenMessage implements Message {
     public static final String MESSAGE_TYPE = "token";
@@ -15,4 +15,5 @@ public class TokenMessage implements Message {
     public String messageType() {
         return MESSAGE_TYPE;
     }
+    public String getExpressionId() { return expressionId };
 }
