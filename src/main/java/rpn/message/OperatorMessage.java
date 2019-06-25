@@ -19,9 +19,14 @@ public class OperatorMessage implements Message {
     }
 
     @Override
+    public String getToken() {
+        return null;
+    }
+
+    /* @Override
     public String id() {
         return expressionId;
-    }
+    } */
 
     @Override
     public String toString() {

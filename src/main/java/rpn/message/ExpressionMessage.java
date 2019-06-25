@@ -15,6 +15,11 @@ public class ExpressionMessage implements Message {
         return MESSAGE_TYPE;
     }
 
+    @Override
+    public String getToken() {
+        return null;
+    }
+
     public String expression() {
         return expression;
     }

@@ -2,7 +2,6 @@ package rpn.consumer;
 
 import rpn.bus.Bus;
 import rpn.message.*;
-import rpn.utils.ParseDouble;
 
 import java.util.Stack;
 
