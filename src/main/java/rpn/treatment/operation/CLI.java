@@ -31,7 +31,7 @@ public class CLI {
             throw new RuntimeException(operator + "is unsupported");
     }
 
-    static int evaluate(String expression) {
+    public static int evaluate(String expression) {
         init();
         String[] split = expression.split("\\s+");
         Stack<Integer> stack = new Stack<>();

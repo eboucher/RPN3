@@ -22,19 +22,4 @@ public class ResultCalculationMessage implements Message {
     public String getToken() {
         return null;
     }
-
-    /*
-    @Override
-    public String id() {
-        return expressionId;
-    }*/
-
-    @Override
-    public String toString() {
-        return "ResultCalculationMessage{" +
-                "result=" + result +
-                ", expressionId='" + expressionId + '\'' +
-                ", MESSAGE_TYPE='" + MESSAGE_TYPE + '\'' +
-                '}';
-    }
 }

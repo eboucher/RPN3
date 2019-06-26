@@ -4,7 +4,6 @@ import org.assertj.core.data.Offset;
 import org.junit.Test;
 import rpn.consumer.Calculator;
 import rpn.consumer.TokenizerConsumer;
-//import rpn.consumer.operator.Addition;
 import rpn.message.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
